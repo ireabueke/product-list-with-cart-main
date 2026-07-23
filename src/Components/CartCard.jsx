@@ -1,18 +1,40 @@
 import React from "react";
-import image from "../assets/images/image-baklava-tablet.jpg";
 
-function CartCard() {
+function CartCard({ productImg, price, productName, productDescription }) {
+  const desktop = productImg[0];
+  const tablet = productImg[1];
+  const mobile = productImg[2];
+  console.log(mobile);
+
   return (
     <div>
-      <picture>
-        {/* Desktop Image (Screens 1024px and wider) */}
-        <source media="(min-width: 1024px)" src={image} />
-        {/* Mobile Image (Screens under 1024px) */}
-        <source media="(max-width: 1023px)" src={image} />
-        {/* Fallback Image for unsupported browsers */}
-        {/* <img src={image} alt="Product Name" /> */}
-      </picture>
-      {/* <img src={image} alt="Product Name" /> */}
+      <div>
+        <picture>
+          {/* Desktop */}
+          <source
+            media="(min-width: 1024px)"
+            srcSet={`/assets/images/${desktop}`}
+          />
+          {/* Tablet */}
+          <source
+            media="(min-width: 768px)"
+            srcSet={`/assets/images/${tablet}`}
+          />
+          {/* Mobile (Default) */}
+          <img
+            src={`./assets/images/${mobile}`}
+            alt="Responsive display"
+            style={{ width: "200px", height: "200px" }}
+          />
+        </picture>
+        {/* <img src="/assets/images/image-meringue-desktop.jpg" alt="" /> */}
+        <p>Add to Cart</p>
+      </div>
+      <div>
+        <p>waffle</p>
+        <p>waffle with berries</p>
+        <p>$6.50</p>
+      </div>
     </div>
   );
 }

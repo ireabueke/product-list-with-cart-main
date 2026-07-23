@@ -1,0 +1,101 @@
+[
+  {
+    "id": "waffle-berries",
+    "image": [
+      "image-waffle-desktop.jpg",
+      "image-waffle-tablet.jpg",
+      "image-waffle-mobile.jpg"
+    ],
+    "name": "Waffle with Berries",
+    "category": "Waffle",
+    "price": 6.5
+  },
+  {
+    "id": "vanilla-creme-brulee",
+    "image": [
+      "image-creme-brulee--desktop.jpg",
+      "image-creme-brulee--tablet.jpg",
+      "image-creme-brulee--mobile.jpg"
+    ],
+    "name": "Vanilla Bean Crème Brûlée",
+    "category": "Crème Brûlée",
+    "price": 7.0
+  },
+  {
+    "id": "macaron-mix",
+    "image": [
+      "image-macaron-desktop.jpg",
+      "image-macaron-tablet.jpg",
+      "image-macaron-mobile.jpg"
+    ],
+    "name": "Macaron Mix of Five",
+    "category": "Macaron",
+    "price": 8.0
+  },
+  {
+    "id": "classic-tiramisu",
+    "image": [
+      "image-tiramisu-desktop.jpg",
+      "image-tiramisu-tablet.jpg",
+      "image-tiramisu-mobile.jpg"
+    ],
+    "name": "Classic Tiramisu",
+    "category": "Tiramisu",
+    "price": 5.5
+  },
+  {
+    "id": "pistachio-baklava",
+    "image": [
+      "image-baklava-desktop.jpg",
+      "image-baklava-tablet.jpg",
+      "image-baklava-mobile.jpg"
+    ],
+    "name": "Pistachio Baklava",
+    "category": "Baklava",
+    "price": 4.0
+  },
+  {
+    "id": "lemon-meringue-pie",
+    "image": [
+      "image-meringue-desktop.jpg",
+      "image-meringue-tablet.jpg",
+      "image-meringue-mobile.jpg"
+    ],
+    "name": "Lemon Meringue Pie",
+    "category": "Pie",
+    "price": 5.0
+  },
+  {
+    "id": "red-velvet-cake",
+    "image": [
+      "image-cake-desktop.jpg",
+      "image-cake-tablet.jpg",
+      "image-cake-mobile.jpg"
+    ],
+    "name": "Red Velvet Cake",
+    "category": "Cake",
+    "price": 4.5
+  },
+  {
+    "id": "salted-caramel-brownie",
+    "image": [
+      "image-brownie-desktop.jpg",
+      "image-brownie-tablet.jpg",
+      "image-brownie-mobile.jpg"
+    ],
+    "name": "Salted Caramel Brownie",
+    "category": "Brownie",
+    "price": 5.5
+  },
+  {
+    "id": "vanilla-panna-cotta",
+    "image": [
+      "image-panna-cotta-desktop.jpg",
+      "image-panna-cotta-tablet.jpg",
+      "image-panna-cotta-mobile.jpg"
+    ],
+    "name": "Vanilla Panna Cotta",
+    "category": "Panna Cotta",
+    "price": 6.5
+  }
+]
