@@ -81,7 +81,8 @@ export default function App() {
                     <img
                       src={`/assets/images/${product.image[2]}`}
                       alt="Responsive display"
-                      style={{ width: "200px", height: "200px" }}
+                      className={`${styles.productImage} ${isSelected ? styles.selectedImage : ""}`}
+                      // style={{ width: "200px", height: "200px" }}
                     />
                   </picture>
                   {/* <img
@@ -279,8 +280,9 @@ export default function App() {
                 return (
                   <div key={id} className={styles.modalItem}>
                     <div className={styles.modalItemLeft}>
+                      {console.log(product.image[3])}
                       <img
-                        src={product.image}
+                        src={`assets/images/${product.image[3]}`}
                         alt={product.name}
                         className={styles.modalThumb}
                       />
